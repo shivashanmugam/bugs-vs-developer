@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background: #292a2b;
+    font-family: 'Audiowide', cursive;
+}
+
+.score-card{
+    width:100%;
+}
+
+.score-card div{
+    width: 33%;
+    height:50px;
+    float:left;
+}
+
+.score-card div img{ 
+    width:30%;
+}
+
+.score-card div h1 {
+    font-size:40px;
+    color:white;
+    text-shadow:0em 0em 0.5em #00ff71;
+}
+
+.score-card div #player-score{
+    color:blue;
+}
+
+.score-card div #enemy-score{
+    color:red;
+}
+
+.score-card div #announcement{
+    color:palevioletred;
+}
